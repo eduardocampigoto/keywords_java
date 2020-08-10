@@ -24,7 +24,7 @@ public abstract class KeywordResponseMapper {
 		
 		if (keywords == null)
 			return Collections.emptyList();
-		
+
 		return keywords.stream().map(key -> key.getKeywd()).collect(Collectors.toList());
 
 	}
